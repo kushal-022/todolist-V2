@@ -28,15 +28,15 @@ const itemSchema = new mongoose.Schema({
 const Item = mongoose.model("Item", itemSchema);
 
 const item1 = new Item({
-  name: "Welcome to our todo list"
+  name: "Welcome to our todo list app! Stay organized and productive by managing your tasks efficiently."
 });
 
 const item2 = new Item({
-  name: "Hit the + Button to do this :) "
+  name: "Hit the + Button to do add a new Task :) "
 });
 
 const item3 = new Item({
-  name: "<-- Hit the dash high to do exceptional :)) "
+  name: "Click on the checkbox when u have completed the Task to delete it :) "
 });
 
 const defaultItems = [item1, item2, item3];
